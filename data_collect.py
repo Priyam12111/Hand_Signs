@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 offset = 20
 imgSize = 300
-folder = "Data/B"
+folder = "Data/C"  # Update this to Upload data to different folder
 counter = 0
 while True:
     success, img = cap.read()
@@ -34,8 +34,8 @@ while True:
             imgResizeShape = imgResize.shape
             hGap = math.ceil((imgSize - hCal) / 2)
             imgWhite[hGap : hCal + hGap, :] = imgResize
-        cv2.imshow("ImageCrop", imgCrop)
-        cv2.imshow("ImageWhite", imgWhite)
+        # cv2.imshow("ImageCrop", imgCrop)
+        # cv2.imshow("ImageWhite", imgWhite)
     cv2.imshow("Image", img)
     key = cv2.waitKey(1)
     if key == ord("s"):
