@@ -48,10 +48,15 @@
 
 ---
 
-**Update**:
-Train Model: data_collect.py
-Test Model: Testing.py
+## Update
 
-- As you Train the model both Python Files need to update about the model and its label configs
+- **Train Model**: Use the `data_collect.py` script to train the model.
+- **Test Model**: Utilize the `Testing.py` script for testing the model.
 
-**Warning**: IT MAY POSSIBLE THAT requirements.txt FILE WOULD NOT WORK
+> **Note**: As you train the model, ensure that both Python files (`data_collect.py` and `Testing.py`) are updated to reflect the latest model and label configurations.
+
+---
+
+## Warning
+
+> **Important**: The `requirements.txt` file may not work as expected. You might need to manually install additional dependencies or adjust the file to ensure compatibility with your environment and project needs.
