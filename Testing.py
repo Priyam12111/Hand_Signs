@@ -4,14 +4,14 @@ from cvzone.ClassificationModule import Classifier
 import numpy as np
 import math
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 detector = HandDetector(maxHands=1)
 classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
 offset = 20
 imgSize = 300
 folder = "Data/C"
 counter = 0
-labels = ["A", "B"]
+labels = ["A", "B", "C"]  # ALSO UPDATE HERE
 while True:
     success, img = cap.read()
     imgOutput = img.copy()
