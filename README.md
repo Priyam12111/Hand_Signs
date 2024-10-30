@@ -1,8 +1,8 @@
-## Install Python3.9
-## sudo apt install python3.9-venv
+- Install Python3.9
+- sudo apt install python3.9-venv
 
-## Install tensorflow==2.9.1
-## pip install protobuf==3.20.0
+- Install tensorflow==2.9.1
+- pip install protobuf==3.20.0
 - I trained my model from https://teachablemachine.withgoogle.com/
 
 ---------------------------------------------------------------
