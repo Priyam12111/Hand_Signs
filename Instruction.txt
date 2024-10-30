@@ -1,0 +1,13 @@
+Install Python3.9
+pip install protobuf==3.20.0
+sudo apt install python3.9-venv
+I trained my model from https://teachablemachine.withgoogle.com/
+
+---------------------------------------------------------------
+# How To train the model
+1. Just go to website 
+2. Select Audio section
+3. Mention all the classifier like A,B,C to Z
+---------------------------------------------------------------
+Train Model: data_collect
+Test Model: Testing.py
