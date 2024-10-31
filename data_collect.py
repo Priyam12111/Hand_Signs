@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 offset = 20
 imgSize = 300
-folder = "Data/C"  # Update this to Upload data to different folder
+folder = "Data/Peace"  # Update this to Upload data to different folder
 counter = 0
 while True:
     success, img = cap.read()
